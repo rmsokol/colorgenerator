@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1> rachel's color generator </h1>
+	<div class="topcard">
+		<input id="color-input" type="color"> </input>
+		<select name="mode" id="mode-select">
+            <option value="monochrome">--Please choose an option--</option>
+            <option value="monochrome">monochrome</option>
+            <option value="monochrome-dark">monochrome-dark</option>
+            <option value="analogic">analogic</option>
+            <option value="complement">complement</option>
+            <option value="analogic-complement">analogic-complement</option>
+            <option value="triad">triad</option>
+            <option value="quad">quad</option>
+        </select>
+		<button id="get-color-button">Get Color Scheme </button>
+	</div>
+    <div id="color-card">
+        <!-- js should render 5 colors from API fetch response -->
+    </div>
+	<script src="index.js"></script>
+</body>
+
+</html>
